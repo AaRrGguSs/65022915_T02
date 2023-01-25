@@ -7,6 +7,50 @@
     <title>Document</title>
 </head>
 <body>
+<div style="top: 20px;"  onchange="Submit()">
+    <label for="">Name</label>
+    <input id="EIEI" type="text" style="margin: 20px";  onfocus="FocusBox(this)" onblur="BlurBox(this) "> 
+</div>
+
+
+
+<div style="margin-top: 20px;" onchange="Submit()">
+    <label for="">Surname</label>
+    <input  id="QIQI" type="text"  onfocus="FocusBox(this)" onblur="BlurBox(this)"> 
+</div>
+
+<div  onchange="Submit()">
+    <p>Date of Birth</p>
+    <div style="margin-top: 20px;">
+        <label for="">Date of Birth</label>
+        <input id="NINI" type="Date" > 
+    </div>
+    
+</div>
+
+<div  onchange="Submit()">
+    <p>
+        <label for="">Select your language</label>
+        <select name="" id="language" onchange="Selectlanguge()">
+        <option value="--Select--">--Select--</option>
+        <option value="C">C</option>
+        <option value="Java">Java</option>
+        <option value="javaScript">javaScript</option>
+        <option value="Python">Python</option>
+    </select>
+    </p>
+    
+</div>
+<div>
+    <button onclick="Submit()">Submit</button>
+</div>
+
+<div>
+    <h1 id="output"></h1>
+</div>
+   
+
+    <script src="T.js"></script>
     
 </body>
 </html>
